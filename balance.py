@@ -14,7 +14,7 @@ def get_series(d):
 s1 = get_series(save)
 s2 = get_series(check)
 
-# d.plot()
-# plt.grid()
-# plt.ylim(0, 35000)
-# plt.show()
+d.plot()
+plt.grid()
+plt.ylim(0, 35000)
+plt.show()
